@@ -16,20 +16,25 @@
 
 <body>
     <!---Navigation-->
-    <header class="sticky">
+    <header class="sticky h-nav-resp">
             <h2 class="logo">Portfo<span>lio</span></h2>
-            <ul>
+            <ul class="nav-list v-class-resp">
                 <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#about">About me</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact me</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-            <a href="#" class="btn">Subscribe</a>
+            <a href="#" class="btn btn-resp v-class-resp">Subscribe</a>
             <a href="#" id="menu-icon"><i class="fa-solid fa-bars"></i></a>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
     </header>
 
-    <div class="home" id="home">
+    <div class=" home" id="home">
             <div class="home-text">
                 <div class="slide">
                     <span class="one">Hello</span>
@@ -48,7 +53,7 @@
     </div>
 
     <!-- About Section  -->
-    <section class="about" id="about">
+    <section class=" about" id="about">
       <div class="about-main">
         <div class="about-img">
             <img src="image/4.jpg" alt="no image">
@@ -57,7 +62,7 @@
             <h3>About <span>Me</span></h3>
             <h5>Developer <span>& Designer</span></h5>
             <p>I am a frontend web developer. I can provide clean code and pixel perfect design. I also make the website more and more attractive with web animations. A responsive design makes your website accessible to all users, regardless of their device. Get A Free Web Quote. 24/7 Chat Support.Services: Web Page Design, Landing Page Design, App Development, Mobile Website Design.  </p>
-            <button type="button">Let's Talk</button>
+            <button class="about-button" type="button">Let's Talk</button>
         </div>
       </div>
     </section>
@@ -208,6 +213,8 @@
             <a href="#home"><i class="fa-sharp fa-solid fa-arrow-up"></i></a>
         </div> -->
     </section>
+
+    <script src="index.js"></script>
 
 
     <!-- Contact Me 
