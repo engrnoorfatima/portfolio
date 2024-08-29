@@ -12,10 +12,6 @@ body{
     
 }
 
-/* .container{
-    color: red;
-} */
-
 header{
     /* position: fixed; */
     position: sticky;
@@ -27,7 +23,7 @@ header{
     justify-content: space-between;
     align-items: center;
     transition: 0.6s;
-    padding: 40px 100px;
+    padding: 30px 100px;
     z-index: 100;
 }
 
@@ -288,7 +284,7 @@ header .btn:hover{
 
 .services{
     background: #101010;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 100px 0px;
 }
 
@@ -670,7 +666,7 @@ margin: 25px 50px;
         display: block;
     }
     .h-nav-resp{
-        height: 72px;
+        height: 100px;
     }
     .v-class-resp{
         opacity: 0;
@@ -709,7 +705,7 @@ margin: 25px 50px;
         margin: auto;
     }
     .services{
-        height: auto;
+        /* height: auto; */
     }
     .service-content{
         flex-direction: column;
@@ -717,6 +713,13 @@ margin: 25px 50px;
     .service-content .box{
         padding: 10px 20px; 
         min-height: 208px;
+      }
+
+    .service-content .box h3{
+        padding: 0px 20px; 
+      }
+    .service-content .box p{
+        /* padding: 0px 20px;  */
       }
     .main-text h2{
         margin-bottom: 25px;
@@ -765,3 +768,5 @@ margin: 25px 50px;
         margin-bottom: 68px;
     }
 }
+
+/* @media only screen and (max-width: 1052px){} */
