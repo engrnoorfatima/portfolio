@@ -715,7 +715,7 @@ margin: 25px 50px;
         flex-direction: column;
     }
     .service-content .box{
-        padding: 10px 20px;
+        padding: 10px 20px; 
         min-height: 208px;
       }
     .main-text h2{
