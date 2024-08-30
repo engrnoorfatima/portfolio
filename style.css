@@ -752,6 +752,13 @@ margin: 25px 50px;
     .last-text p{
         font-size: 10px;
     }
+
+    .portfolio-content{
+        /* display: block; */
+        justify-content: center;
+        align-items: center;
+    }
+
     .portfolio-content .row{
         margin-top: 15px;
     } 
@@ -789,15 +796,28 @@ margin: 25px 50px;
         font-size: 19px;
     }
     .home-text{
-        margin: -20px -54px;
+        margin: -40px -74px;
     }
-     .home-text .one.two{
+    .home-text .slide{
+        margin-top: -232px;
+    }
+     /* .home-text .one.two{
        font-size: 16px;
-    }
+    } */
     .home-text h1{
        font-size: 36px;
+       margin-right: -97px;
     }
     .home-text h3{
-       font-size: 29px;
+       font-size: 26px;
+       margin-right: -97px;
     } 
+    .about-text h3 {
+        font-size: 40px;
+    }
+    .about-text h5 {
+        margin-right: -46px;
+        font-size: 24px;
+        margin-bottom: 4px;
+    }
 }
