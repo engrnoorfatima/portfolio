@@ -752,11 +752,6 @@ margin: 25px 50px;
     .last-text p{
         font-size: 10px;
     }
-    .portfolio-content{
-        display: block;
-        justify-content: center;
-        align-items: center;
-    }  
     .portfolio-content .row{
         margin-top: 15px;
     } 
@@ -781,7 +776,9 @@ margin: 25px 50px;
     }
 
     .portfolio-content{
-        margin: auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
     }
 
     .service-content .box{
@@ -792,6 +789,15 @@ margin: 25px 50px;
         font-size: 19px;
     }
     .home-text{
-        margin: -44px;
+        margin: -20px -54px;
     }
+    /* .home-text .one.two{
+       font-size: 16px;
+    }
+    .home-text h1{
+       font-size: 36px;
+    }
+    .home-text h3{
+       font-size: 29px;
+    } */
 }
