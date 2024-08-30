@@ -727,10 +727,14 @@ margin: 25px 50px;
     }
 
     .contact-container{
-        margin: 0 80px;
+        margin: 0px;
     }
     .contact-text h2{
-        margin: 25px 60px;
+        margin: 25px 50px;
+    }
+
+    .contact-form{
+        margin: 30px 50px;
     }
     .contact-icons{
         /* margin-left: 55px; */
@@ -748,12 +752,12 @@ margin: 25px 50px;
         font-size: 10px;
     }
     .portfolio-content{
-        display: flex;
-        flex-direction: column;
+        display: block;
         justify-content: center;
         align-items: center;
-        margin: auto;
-       
+    }  
+    .portfolio-content .row{
+        margin-top: 15px;
     } 
     .portfolio-main-text p{
         font-size: 30px;
@@ -769,4 +773,28 @@ margin: 25px 50px;
     }
 }
 
-/* @media only screen and (max-width: 1052px){} */
+@media only screen and (max-width: 600px){
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .contact-form input{
+        width: fit-content;
+    } */
+
+    .portfolio-content{
+        margin: auto;
+    }
+
+    .service-content .box{
+        padding: 10px 20px; 
+       margin: 30px -30px;
+      }
+    .service-content .box h3{
+        font-size: 19px;
+    }
+    .home-text{
+        margin: -44px;
+    }
+}
