@@ -594,7 +594,8 @@ margin: 25px 50px;
     padding: 10px 15%;
     width: 100%;
     flex-wrap: wrap;
-    background-color: #191919;
+    /* background-color: #191919; */
+    background-color: #f9004d;
     /* gap: 2rem; */
     display: flex;
     align-items: center; 
@@ -778,10 +779,6 @@ margin: 25px 50px;
         display: flex;
         flex-direction: column;
     }
-
-    /* .contact-form input{
-        width: fit-content;
-    } */
 
     .portfolio-content{
         margin: auto;
