@@ -395,10 +395,12 @@ header .btn:hover{
 }
 
 .row img{
-    width: 80%;
+    /* width: 80%; */
     border-radius: 8px;
     display: block;
     transition: transform 0.5s;
+    height: 220px; 
+    width: 350px;
     
 }
 
@@ -622,7 +624,7 @@ margin: 25px 50px;
 .burger{
     display: none;
     position: absolute;
-    top: 20px;
+    top: 40px;
     cursor: pointer;
     right: 5%;
 }
@@ -632,6 +634,7 @@ margin: 25px 50px;
     height: 4px;
     margin: 5px 3px;
 }
+
 
 @media only screen and (max-width: 1052px){
     .sticky{
@@ -705,9 +708,7 @@ margin: 25px 50px;
         display: block;
         margin: auto;
     }
-    .services{
-        /* height: auto; */
-    }
+    
     .service-content{
         flex-direction: column;
     }
@@ -718,10 +719,8 @@ margin: 25px 50px;
 
     .service-content .box h3{
         padding: 0px 20px; 
-      }
-    .service-content .box p{
-        /* padding: 0px 20px;  */
-      }
+    }
+    
     .main-text h2{
         margin-bottom: 25px;
         font-size: 40px;
@@ -760,7 +759,7 @@ margin: 25px 50px;
     }
 
     .portfolio-content .row{
-        margin-top: 15px;
+        margin-top: 19px;
     } 
     .portfolio-main-text p{
         font-size: 30px;
@@ -788,12 +787,17 @@ margin: 25px 50px;
         align-items: center;
     }
 
+    .portfolio-content .row img{
+        height: 275px;
+        width: 310px;
+    }
+
     .service-content .box{
         padding: 10px 20px; 
        margin: 30px -30px;
       }
     .service-content .box h3{
-        font-size: 19px;
+        font-size: 17px;
     }
     .home-text{
         margin: -40px -74px;
@@ -820,4 +824,17 @@ margin: 25px 50px;
         font-size: 24px;
         margin-bottom: 4px;
     }
+    .about-img img{
+        display: block;
+        margin: auto;
+        border-radius: 10px;
+    }
 }
+
+/* @media only screen and (max-width: 370px){
+    .portfolio-content .row img{
+        height: 275px;
+        width: 310px;
+
+    }
+} */
