@@ -9,4 +9,5 @@ burger.addEventListener('click', ()=>{
    navList.classList.toggle('v-class-resp');
    logo.classList.toggle('v-class-resp');
    sticky.classList.toggle('h-nav-resp');
+   sticky.classList.toggle('bcolor-resp');
 })
