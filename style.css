@@ -493,6 +493,10 @@ margin: 25px 50px;
      margin-left: 50px;
 }
 
+.list ul{
+    color:  #fcfc;
+}
+
 .list li{
     margin-bottom: 12px;
 }
@@ -581,6 +585,7 @@ margin: 25px 50px;
     border: 1px solid transparent;
     background-color: #f9004d;
     color: white;
+    margin-bottom: 15px;
     padding: 8px 15px;
     border-radius: 14px;
     /* width: 120px; */
@@ -593,7 +598,7 @@ margin: 25px 50px;
 }
 
 .end{
-    padding: 10px 15%;
+    padding: 9px 15%;
     width: 100%;
     flex-wrap: wrap;
     /* background-color: #191919; */
@@ -605,7 +610,7 @@ margin: 25px 50px;
 }
 
 .last-text p{
-    color: #fcfc;
+    color: white;
     font-size: 15px;
 }
 
@@ -638,7 +643,7 @@ margin: 25px 50px;
 
 @media only screen and (max-width: 1052px){
     header{
-        height: 600px;
+        height: 630px;
         display: flex;
         flex-direction: column;
         transition: all 0.7s ease-out;
@@ -671,6 +676,9 @@ margin: 25px 50px;
     }
     .h-nav-resp{
         height: 100px;
+    }
+    .bcolor-resp{
+        background-color: rgb(51, 47, 47);
     }
     .v-class-resp{
         opacity: 0;
