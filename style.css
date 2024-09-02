@@ -637,7 +637,7 @@ margin: 25px 50px;
 
 
 @media only screen and (max-width: 1052px){
-    .sticky{
+    header{
         height: 600px;
         display: flex;
         flex-direction: column;
