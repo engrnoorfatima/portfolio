@@ -395,12 +395,12 @@ header .btn:hover{
 }
 
 .row img{
-    /* width: 80%; */
+    width: 80%;
     border-radius: 8px;
     display: block;
     transition: transform 0.5s;
     height: 220px; 
-    width: 350px;
+    /* width: 350px; */
     
 }
 
@@ -452,6 +452,7 @@ header .btn:hover{
 
 .row:hover .layer{
     height: 100%;
+
 }
 
 .contact{
@@ -643,7 +644,7 @@ margin: 25px 50px;
 
 @media only screen and (max-width: 1052px){
     header{
-        height: 630px;
+        height: 670px;
         display: flex;
         flex-direction: column;
         transition: all 0.7s ease-out;
@@ -658,7 +659,7 @@ margin: 25px 50px;
         width:100%;
         align-items: center;
         padding: 20px 0;
-        font-size: 25px;
+        font-size: 24px;
 
     }
     .nav-list li{
@@ -676,9 +677,6 @@ margin: 25px 50px;
     }
     .h-nav-resp{
         height: 100px;
-    }
-    .bcolor-resp{
-        background-color: rgb(51, 47, 47);
     }
     .v-class-resp{
         opacity: 0;
@@ -787,8 +785,8 @@ margin: 25px 50px;
         border-radius: 10px;
     }
     .layer{
-        width: 50%;
-        margin-left: 95px;
+        /* width: 80%; */
+        /* margin-left: 0px; */
     }
     .portfolio-content .row img{
       width: 350px;
@@ -797,7 +795,15 @@ margin: 25px 50px;
     }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 780px){
+    .portfolio-content .row img{
+        width: 550px;
+        height: 350px;
+        margin: auto;
+      }
+}
+
+@media only screen and (max-width: 650px){
     .contact-container{
         display: flex;
         flex-direction: column;
@@ -809,11 +815,17 @@ margin: 25px 50px;
         align-items: center;
     }
 
+    .portfolio-content .row{
+        align-items: center;
+        justify-content: center;
+    }
     .portfolio-content .row img{
-        /* height: 275px;
-        width: 310px; */
-        width: auto;
-        margin-right: 30px;
+        max-width: 350px;
+        max-height: 290px;
+    }
+
+    .layer{
+        left: 44px;
     }
 
     .service-content .box{
